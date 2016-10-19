@@ -1,18 +1,18 @@
 {
-    "name": "assimtech/money-bundle",
+    "name": "assimtech/fiat-bundle",
     "type": "library",
-    "description": "Money symfony bundle",
-    "homepage": "https://github.com/assimtech/money-bundle",
+    "description": "Fiat symfony bundle",
+    "homepage": "https://github.com/assimtech/fiat-bundle",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Assimtech\\MoneyBundle\\": "src"
+            "Assimtech\\FiatBundle\\": "src"
         }
     },
     "require": {
         "php": ">=5.5.9",
 
-        "assimtech/money": "^1.0",
+        "assimtech/fiat": "^2.0",
         "symfony/http-kernel": "~2.3|~3.0",
         "symfony/config": "~2.3|~3.0",
         "symfony/dependency-injection": "~2.3|~3.0"

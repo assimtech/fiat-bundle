@@ -1,15 +1,15 @@
 ---
 parameters:
-    assimtech_money.accountant.class: Assimtech\Money\Accountant
+    assimtech_fiat.accountant.class: Assimtech\Fiat\Accountant
 
 
 services:
-    assimtech_money.accountant:
-        class: %assimtech_money.accountant.class%
+    assimtech_fiat.accountant:
+        class: %assimtech_fiat.accountant.class%
 
-    assimtech_money.twig.accountant:
-        class: Assimtech\Money\Twig\Extension\Accountant
+    assimtech_fiat.twig.accountant:
+        class: Assimtech\Fiat\Twig\Extension\Accountant
         arguments:
-            - "@assimtech_money.accountant"
+            - "@assimtech_fiat.accountant"
         tags:
             - { name: twig.extension }

@@ -1,5 +1,5 @@
 ---
 suites:
-    AssimtechMoneyBundle:
-        namespace: Assimtech\MoneyBundle
-        psr4_prefix: Assimtech\MoneyBundle
+    AssimtechFiatBundle:
+        namespace: Assimtech\FiatBundle
+        psr4_prefix: Assimtech\FiatBundle

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="assimtech/money-bundle" default="dev">
+<project name="assimtech/fiat-bundle" default="dev">
 
     <target name="dev" depends="lint,cpd,cs,md,spec"/>
 
