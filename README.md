@@ -4,7 +4,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/assimtech/fiat-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/assimtech/fiat-bundle/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/assimtech/fiat-bundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/assimtech/fiat-bundle/?branch=master)
 
-This bundle integrates [Fiat](https://github.com/assimtech/fiat) with Symfony.
+This bundle integrates [Assimtech\Fiat](https://github.com/assimtech/fiat) with Symfony.
 
 
 
@@ -28,11 +28,11 @@ $bundles = array(
 
 This bundle exposes the `Assimtech\Fiat\Accountant` as the symfony service `assimtech_fiat.accountant`
 
-See [Fiat](https://github.com/assimtech/fiat) for documentation
+See [Assimtech\Fiat](https://github.com/assimtech/fiat) for documentation
 
 
 ## Twig integration
 
 This bundle exposes the `Assimtech\Fiat\Accountant` as a `Twig_Extension`
 
-See [Fiat](https://github.com/assimtech/fiat) for documentation
+See [Assimtech\Fiat](https://github.com/assimtech/fiat) for documentation

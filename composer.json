@@ -1,7 +1,7 @@
 {
     "name": "assimtech/fiat-bundle",
     "type": "library",
-    "description": "Fiat symfony bundle",
+    "description": "Money, Currency and Accounting Symfony bundle",
     "homepage": "https://github.com/assimtech/fiat-bundle",
     "license": "MIT",
     "autoload": {
