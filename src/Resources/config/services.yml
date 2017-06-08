@@ -5,7 +5,7 @@ parameters:
 
 services:
     assimtech_fiat.accountant:
-        class: %assimtech_fiat.accountant.class%
+        class: "%assimtech_fiat.accountant.class%"
 
     assimtech_fiat.twig.accountant:
         class: Assimtech\Fiat\Twig\Extension\Accountant
