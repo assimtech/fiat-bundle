@@ -1,4 +1,3 @@
----
 suites:
     AssimtechFiatBundle:
         namespace: Assimtech\FiatBundle

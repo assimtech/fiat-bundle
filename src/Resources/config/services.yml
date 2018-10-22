@@ -1,11 +1,6 @@
----
-parameters:
-    assimtech_fiat.accountant.class: Assimtech\Fiat\Accountant
-
-
 services:
     assimtech_fiat.accountant:
-        class: "%assimtech_fiat.accountant.class%"
+        class: Assimtech\Fiat\Accountant
     Assimtech\Fiat\Accountant: '@assimtech_fiat.accountant'
 
     assimtech_fiat.twig.accountant:
