@@ -16,7 +16,7 @@ class AssimtechFiatExtensionSpec extends ObjectBehavior
 
     function it_can_load(ContainerBuilder $container)
     {
-        $configs = array();
+        $configs = [];
 
         $path = realpath(__DIR__.'/../../src/DependencyInjection').'/../Resources/config/services.yml';
         $container->fileExists($path)->willReturn(true);

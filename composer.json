@@ -10,7 +10,7 @@
         }
     },
     "require": {
-        "php": ">=5.5.9",
+        "php": ">=7.1",
 
         "assimtech/fiat": "^2.0",
         "symfony/http-kernel": "^2.3|^3.0|^4.0",
