@@ -6,6 +6,7 @@ parameters:
 services:
     assimtech_fiat.accountant:
         class: "%assimtech_fiat.accountant.class%"
+    Assimtech\Fiat\Accountant: '@assimtech_fiat.accountant'
 
     assimtech_fiat.twig.accountant:
         class: Assimtech\Fiat\Twig\Extension\Accountant
@@ -13,3 +14,4 @@ services:
             - "@assimtech_fiat.accountant"
         tags:
             - { name: twig.extension }
+    Assimtech\Fiat\Twig\Extension\Accountant: '@assimtech_fiat.twig.accountant'
