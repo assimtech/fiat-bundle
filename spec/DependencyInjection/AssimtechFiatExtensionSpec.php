@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace spec\Assimtech\FiatBundle\DependencyInjection;
 
 use Assimtech\Fiat;
@@ -9,13 +11,14 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 
 class AssimtechFiatExtensionSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    function it_is_initializable(): void
     {
         $this->shouldHaveType('Assimtech\FiatBundle\DependencyInjection\AssimtechFiatExtension');
     }
 
-    function it_can_load(ContainerBuilder $container)
-    {
+    function it_can_load(
+        ContainerBuilder $container
+    ): void {
         $configs = [];
 
         $path = realpath(__DIR__.'/../../src/DependencyInjection').'/../Resources/config/services.yml';
