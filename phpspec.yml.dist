@@ -1,4 +1,0 @@
-suites:
-    AssimtechFiatBundle:
-        namespace: Assimtech\FiatBundle
-        psr4_prefix: Assimtech\FiatBundle
