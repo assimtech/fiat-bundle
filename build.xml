@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="assimtech/fiat-bundle" default="ci">
-
-    <target name="ci" depends="php-lint,cpd,cs"/>
+    <target name="ci" depends="php-lint,cpd,cs,md"/>
 
     <target name="php-lint">
         <phplint
@@ -34,5 +33,4 @@
             command="vendor/bin/phpmd src text phpmd.xml"
         />
     </target>
-
 </project>
